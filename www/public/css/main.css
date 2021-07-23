@@ -1,0 +1,54 @@
+
+h1, h2, h3 {
+    text-align: center;
+}
+.container {
+    width: max-content;
+    margin: auto;
+}
+nav  {
+    text-align: center;
+}
+
+table {
+    border: 1px solid #aaaaaa;
+    margin: auto;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #aaaaaa;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.button, .paginate a {
+    display: inline-block;
+    padding: 0 5px;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px #aaa;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    background: #d5d7f1;
+    margin: 10px 20px;
+}
+.paginate a {
+    margin: 5px 3px;
+}
+.button:hover {
+    cursor: pointer;
+    background: #e2e3f5;
+    box-shadow: 1px 1px 4px #aaa;
+}
+
+
+.paginate svg {
+    height: 20px;
+}
+.paginate .navigation span {
+    margin: 30px;
+}
+
+
+
+
